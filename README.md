@@ -27,6 +27,7 @@ npm run dev
 **4. Edit config**
 ```
 src/app/resources/config
+https://once-ui.com/docs/theming for examples
 ```
 
 **5. Edit content**
