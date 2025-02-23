@@ -75,7 +75,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Gordon is a East Coast based Product Manager with a passion for exploring the possiblities of AI through application and learning through building.  He uses Product Management experience to identify problems and iterate solutions that solve.
+        Gordon is a Product Manager with extensive experience in Product development and market optimization, primarily in the automotive industry. Based on the East Coast, he specializes in identifying and defining complex business problems and scoping SaaS solutions. With a passion for exploring the application of AI, he is currently utilizing and building with AI in both his professional role and on his own time.
       </>
     ),
   },
@@ -84,18 +84,18 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Senior Product Manager",
-        timeframe: "2019 - Present",
+        company: "Independent AI Development (Indy-Hacker)",
+        timeframe: "2022 - Present",
         role: "",
         achievements: [
           <>
-            Managed the full product lifecycle afor multiple B2B eCommerece and Saas Solutions
+            Developed a suite of AI-powered productivity tools using Large Language Models (LLMs) including OpenAI, Claude, Cursor and Vercel/V0.
           </>,
           <>
-            Worked with international enterprise customers to optimise product performance
+            Created specialized AI agents and chatbots for professional workflows, focusing on customer service, market research and data cleansing.
           </>,
           <>
-          Dedicated to identifying problems, scoping solutions and quickly iterating to deliver
+            Engineered custom AI solutions for business intelligence and market analysis, demonstrating practical applications of emerging AI technologies.
 
         </>,
         ],
@@ -109,7 +109,62 @@ const about = {
           },
         ],
       },
-      
+      {
+        company: "Senior Product Manager",
+        timeframe: "2021 - Present",
+        role: "",
+        achievements: [
+          <>
+            Led strategic development of premium SaaS products, managing solutions that process over $150 billion in pricing inquiries and facilitate $7 billion in transaction volume annually.
+          </>,
+          <>
+            Responsible for engineering and maintaining SaaS integrations, delivering over $300M in transactions annualy
+            </>,
+          <>
+            Responsible for Roadmap and product discovery strategies across B2B eCommerce solutions.
+          </>,
+          <>
+            Spearheaded Voice of Customer research initiatives that shaped product development, realizing multi-million opportunities in new sectors.
+          </>,
+          <>
+            Leveraged machine learning models to identify market inefficiencies, resulting in improved margin performance across the platform.
+        </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Key Account Manager",
+        timeframe: "2017 - 2021",
+        role: "",
+        achievements: [
+          <>
+            Pioneered Ai-powered dynamic pricing strategy for a $400M product portfolio, successfully implementing cloud-based SaaS solutions across national retail networks
+          </>,
+          <>
+            Increased market share by 20% through e-commerce implementations, generating over $100M in revenue.
+          </>,
+          <>
+            Negotiated multi-million dollar contracts with Fortune 500 companies and international manufacturers, establishing key partnerships that drove business growth.
+           </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
     ],
   },
   studies: {
@@ -127,12 +182,12 @@ const about = {
     ],
   },
   technical: {
-    display: false, // set to false to hide this section
-    title: "Technical skills",
+    display: true, // set to false to hide this section
+    title: "Technology",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Cursor",
+        description: <>Experienced with AI-coding Agents to create production standard applications</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -150,12 +205,45 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Open Source LLMs",
+        description: <>Utilizing Open source LLMs such as OpenAI, Claude, Perplexity  threough APIs to offer low cost integrations into for applications</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Make.com",
+        description: <>Builds with this Low-Code solution, connecting everyday applications such as Gmail, office and websites for fast, low cost application building</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        
+        ],
+      },
+      {
+        title: "RapidAPI",
+        description: <>Leverages information "marketplace" to access a diverse range of API enabling utilization within apps.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
