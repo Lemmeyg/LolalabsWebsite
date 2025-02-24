@@ -1,0 +1,33 @@
+---
+title: "Predictions App: A Football Score Prediction Game"
+publishedAt: "2025-01-01"
+summary: "An engaging football prediction app where users submit game score forecasts and compete on a leaderboard using real-time data integration."
+---
+
+## **Description**
+- The Predictions App is an interactive platform designed to allow users to submit their predictions for the final scores of football matches. Users receive weekly updates with fixture lists and can submit their forecasts directly within the app. The Admin profile integrates a feature to retrieve live football scores, which is crucial for dynamically updating the leaderboard based on user submissions.
+
+## **Problem**
+- The app was developed to create an engaging football community where fans could compete against each other by forecasting match outcomes. Managing user expectations and providing real-time data were core aspects of the design. The goal was to distribute an enhanced sports experience using competition while branching out from passive game viewing to activity-driven engagements over public interest matches.
+
+## **Key Features**
+- **User Predictions Submission:** Players can input their predicted final scores for upcoming matches and compare their predictions with other users.
+- **Weekly Fixture Updates:** Users receive updated fixture lists weekly to keep them informed and engaged throughout the season.
+- **Admin Live Score Retrieval:** Features a button exclusively for administrators to fetch real-time scores that populate the app's leaderboard.
+- **Leaderboards:** Displays user rankings based on the accumulation of points from correct predictions.
+- **Google OAuth Integration:** Implements secure user authentication, providing a seamless login experience with existing Google accounts.
+
+## **Tech Stack**
+- **Next.js:** Used to build a responsive frontend interface of the application.
+- **Google Sheets:** Acts as a lightweight database to store users’ predictions and fixture data.
+- **API Integration:** Utilizes external APIs for live updates on football scores and match fixtures.
+- **Google OAuth:** Instead of a traditional Service Authentication service, Google OAuth ensures a more competitive user login process for data security.
+
+## **Challenges and Learnings**
+- A noteworthy challenge was implementing secure user profiles. Opting for Google OAuth for authentication initially faced resistance among users who preferred simpler login options; however, they eventually adapted to this choice. This provided a valuable lesson regarding user experience - listening and adapting to feedback even if initial implementation desires deviate from user habits proved beneficial.
+
+## **Outcome**
+- Upon release, the Predictions App successfully engaged users as they actively participated in the predictive challenge. Through points accrued on the leaderboard, the community witnessed heightened interaction not only with the app but also discussions on key matches in the football seasons. Admin functions and a straightforward reporting mechanism facilitated an efficient user experience, breezy fixtures changes, and live scores updates, solidifying loyalty among users diverse interests.
+
+## **Notes**
+- Despite some resistance against OAuth, prioritizing security aimed to enhance trust among users, ultimately aiding in building a loyal community around the app.
